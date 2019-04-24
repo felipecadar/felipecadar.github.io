@@ -13,6 +13,6 @@ I am a graduation student in Computer Science at Federal University of Minas Ger
 News
 ======
 
-- [Lars 2018] Paulo Rezeck, Bruna Frade, Jéssica F. Soares, Luan G. Pinto, Felipe Cadar, Hector Azpurua, Douglas Macharet, Luiz Chaimowicz, Mário Campos, Gustavo Freitas. __Framework for Haptic Teleoperation of a Remote Robotic Arm Device__, IEEE LARS 2018 – 15th Latin American Robotics Symposium, 2018. [Visit the page for the code and paper access](https://www.verlab.dcc.ufmg.br/rezeckbrunalars2018/).
+- [Lars 2018] Paulo Rezeck, Bruna Frade, Jéssica F. Soares, Luan G. Pinto, Felipe Cadar, Hector Azpurua, Douglas Macharet, Luiz Chaimowicz, Mário Campos, Gustavo Freitas. __Framework for Haptic Teleoperation of a Remote Robotic Arm Device__, IEEE LARS 2018 – 15th Latin American Robotics Symposium, 2018. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/lars2018-1/).
 
-- [Lars 2018] Paulo Rezeck, Felipe Cadar, Jéssica F. Soares, Bruna Frade, Luan G. Pinto, Hector Azpurua, Douglas Macharet, Luiz Chaimowicz, Mário Campos, Gustavo Freitas. __An Immersion Enhancing Robotic Head-Like Device for Teleoperation__, IEEE LARS 2018 – 15th Latin American Robotics Symposium, 2018. [Visit the page for the code and paper access](https://www.verlab.dcc.ufmg.br/rezeckcadarlars2018/).
+- [Lars 2018] Paulo Rezeck, Felipe Cadar, Jéssica F. Soares, Bruna Frade, Luan G. Pinto, Hector Azpurua, Douglas Macharet, Luiz Chaimowicz, Mário Campos, Gustavo Freitas. __An Immersion Enhancing Robotic Head-Like Device for Teleoperation__, IEEE LARS 2018 – 15th Latin American Robotics Symposium, 2018. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/lars2018-2).
