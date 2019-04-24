@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Felipe Cadar Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Felipe Cadar Chamone"
 description              : &description "Undergraduated Student and Researcher at VeRLab"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter \@eucadar
 facebook:
   username               :
   app_id                 :
