@@ -15,6 +15,8 @@ I am a graduate student in computer science at the Federal University of Minas G
 initiation at the Laboratory of Computer Vision and Robotics (VeRLab) since I joined the course in the first semester of 2016.
 I really enjoy doing scientific research and would love to see my work to have a positive impact on someone’s life.
 
+Download the complete CV [here](../files/Felipe_Cadar_CV_EN.pdf).
+
 # EXPERIENCE
 
 ## Scientific research
