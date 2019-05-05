@@ -17,7 +17,7 @@ I really enjoy doing scientific research and would love to see my work to have a
 
 # EXPERIENCE
 
-#### Scientific research
+## Scientific research
 
 **VeRLab - Laboratory of Computer Vision and Robotics**
 April 2016–Today,  UFMG, BeloHorizonte, MinasGerais
@@ -31,7 +31,7 @@ I really enjoy doing scientific research and would love to see my work to have a
 
 # PROJECTS
 
-#### Semantic Hyperlapse
+## Semantic Hyperlapse
 
 **VeRLab - Laboratory of Computer Vision and Robotics**
 
@@ -44,7 +44,7 @@ More info in https://www.verlab.dcc.ufmg.br/semantic-hyperlapse/
 
 Keywords: Semantic Hyperlapse, Sparse Coding, Convolutional Neural Networks, RGB-D Dataset.
 
-#### Advanced Teleoperation of Mining Equipment: Excavator
+## Advanced Teleoperation of Mining Equipment: Excavator
 
 **VeRLab/ITV-Intituto Tecnológico Vale/UFMG**
 
@@ -58,7 +58,7 @@ More info in https://www.verlab.dcc.ufmg.br/advanced-teleoperation-of-mining-equ
 
 Keywords: Teleoperation, Mobile Platform, Virtual Reality, Haptic Feedback
 
-#### Binary Descriptor Invariant to Non-Rigid Deformations for RGB-D Images
+## Binary Descriptor Invariant to Non-Rigid Deformations for RGB-D Images
 
 **VeRLab - Laboratory of Computer Vision and Robotics**
 
