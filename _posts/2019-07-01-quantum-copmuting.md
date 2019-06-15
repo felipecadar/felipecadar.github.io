@@ -26,7 +26,8 @@ $$
 0
 \label{eq:qbit1}
 \end{array}\right)
-
+$$
+$$
 \left(\begin{array}{c} 
 0\\
 1
@@ -36,3 +37,7 @@ $$
 
 Ref to Eq. $\eqref{eq:qbit1}$.
 Ref to Eq. $\eqref{eq:qbit2}$.
+
+@equation(id)
+x = \sum_{i=1}{N} i
+@/
