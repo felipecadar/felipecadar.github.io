@@ -18,4 +18,11 @@ Em janeiro de 2019 a [IBM](https://www.ibm.com)  anunciou seu primeiro, e até e
 
 ### Qbits 
 
-Em um computador tradicional trabalhamos com bits, a menor unidade de mémoria que pode representar um Zero(0) ou um Um(1). No computador quantico
+Em um computador tradicional trabalhamos com bits, a menor unidade de mémoria que pode representar um Zero(0) ou um Um(1). No computador quantico temos o Qbit
+
+$$
+\left(\begin{array}{c} 
+1\\
+0
+\end{array}\right)
+$$ 
