@@ -33,3 +33,6 @@ $$
 \label{eq:qbit2}
 \end{array}\right)
 $$ 
+
+Ref to Eq. $\eqref{eq:qbit1}$.
+Ref to Eq. $\eqref{eq:qbit2}$.
