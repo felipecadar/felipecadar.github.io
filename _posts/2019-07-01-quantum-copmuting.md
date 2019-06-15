@@ -24,5 +24,12 @@ $$
 \left(\begin{array}{c} 
 1\\
 0
+\label{eq:qbit1}
+\end{array}\right)
+
+\left(\begin{array}{c} 
+0\\
+1
+\label{eq:qbit2}
 \end{array}\right)
 $$ 
