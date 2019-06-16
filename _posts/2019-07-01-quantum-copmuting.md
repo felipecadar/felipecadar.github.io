@@ -50,42 +50,8 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
 1. Identidade:
 
-$latex \begin{pmatrix} 0\\ 1 \end{pmatrix}$ 
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="\begin{pmatrix} 0 & 0\\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 1 \end{pmatrix}" />
 
-$$
-\left(\begin{array}
-{rr}
-1  0 \\
-0  1
-\end{array}\right)
-\left(\begin{array}
-{r}
-1 \\
-0 
-\end{array}\right)
-=
-\left(\begin{array}
-{r}
-1 \\
-0 
-\end{array}\right)
-$$
+![](../images/id0.png)
 
-$$
-\left(\begin{array}
-{rr}
-1 & 0 \\
-0 & 1
-\end{array}\right)
-\left(\begin{array}
-{r}
-1 \\
-0 
-\end{array}\right)
-=
-\left(\begin{array}
-{r}
-1 \\
-0 
-\end{array}\right)
-$$
+![](../images/id1.png)
