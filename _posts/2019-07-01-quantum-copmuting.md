@@ -181,5 +181,6 @@ Agora que sabemos da existência da superposição, como colocamos nossos bits n
 ![](/images/blog_quantum/hadamard.png)
 
 ![](/images/blog_quantum/hadamard0.png)
+
 ![](/images/blog_quantum/hadamard1.png)
 
