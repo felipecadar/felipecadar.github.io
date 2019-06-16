@@ -50,6 +50,14 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
 1. Identidade:
 
+$$\mathbf{X} = \left[\begin{array}
+{rrr}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{array}\right]
+$$
+
 $$
 \left(\begin{array}{} 
 1 & 0\\
