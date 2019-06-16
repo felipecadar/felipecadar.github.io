@@ -90,6 +90,7 @@ $$
 1\\
 0
 \end{array}\right)
+$$
 
 $$
 \left(\begin{array}{cc} 
