@@ -50,6 +50,8 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
 1. Identidade:
 
+$latex \begin{pmatrix} 0\\ 1 \end{pmatrix}$ 
+
 $$
 \left(\begin{array}
 {rr}
