@@ -188,3 +188,10 @@ Agora que sabemos da existência da superposição, como colocamos nossos bits n
 
 ![](/images/blog_quantum/hadamard1.png)
 
+Lembrando agora das propriedades das operações, elas também são seus próprios inversos, então o Hadamard gate conseguie tirar um qbit da superposição sem realizar de fato uma medição desse qbit. Dessa maneira podemos estruturar a computação quantica de forma determinística em vez de probabilística!
+
+
+![](/images/blog_quantum/hadamardto0.png)
+
+![](/images/blog_quantum/hadamardto1.png)
+
