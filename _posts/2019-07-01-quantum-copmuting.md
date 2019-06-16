@@ -16,7 +16,7 @@ Em janeiro de 2019 a [IBM](https://www.ibm.com)  anunciou seu primeiro, e até e
 
 Para isso vamos passar por alguns conceitos nesse post.
 
-### Qbits 
+## Qbits 
 
 Em um computador tradicional trabalhamos com bits, a menor unidade de mémoria que pode representar um Zero(0) ou um Um(1). No computador quantico temos o bit quântico, que também pode representar um Zero(0) ou um Um(1). Vamos chamar o bit clássico de cbit e o bit quântico de qbit.
 
@@ -30,7 +30,7 @@ E o Qbit Um(1) por esse outro vetor:
 
 Agora as coisas começam a ficar mais parecidas com uma copmutação tradicional.
 
-### Operações com bits
+## Operações com bits
 
 Com cbits conseguimos fazer 4 operações clássicas:
 1. Identidade: $f(x) = x$
@@ -40,32 +40,36 @@ Com cbits conseguimos fazer 4 operações clássicas:
 
 E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
-1. Identidade:
+**Identidade**:
 
 O Qbit 0 continua 0 e o Qbit 1 continua 1
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;0\\&space;0&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Identidade 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;0\\&space;0&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Identidade 1" />
 
-2. Negação:
+**Negação**:
 
 O Qbit 0 se torna 1 e o Qbit 1 se torna 0
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;1\\&space;1&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;1\\&space;1&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negaçao 1" />
 
-3. Constatante 0:
+**Constatante 0**:
 
 O Qbit 0 continua 0 e o Qbit 1 se torna 0
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;1\\&space;0&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;1\\&space;0&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negaçao 1" />
 
-4. Constatante 1:
+**Constatante 1**:
 
 O Qbit 0 se torna 1 e o Qbit 1 continua 1
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negaçao 1" />
 
 
-Vamos dar guardar essas 4 operações retornamos para elas mais tarde. Agora precisamos saber entender o conceito de Computação Reversível. 
+Vamos dar guardar essas 4 operações retornamos para elas mais tarde. 
+
+## Computação Reversível
+
+Agora precisamos saber entender o conceito de Computação Reversível. 
 
 No resumo, significa que se você sabe a operação que foi realizada e o resultado dessa operação, você consegue descobrir a entrada que foi utilizada. Um bom exemplo seria: se temos a operação de negação realizada e o resultado for 1, então a entrada tem que ser 0
 
@@ -81,7 +85,7 @@ A operação de Negação é um bom exemplo para isso também
 
 $ \neg(\neg X) = X $
 
-### Produto de tensores 
+## Produto de tensores 
 
 Ok, sabendo de tudo isso vamos estudar outra operação, o [produto de tensores](https://en.wikipedia.org/wiki/Tensor_product). No resumo ela funciona seguindo a regra abaixo, pelo menos para os propósitos dessse blog.
 
@@ -104,7 +108,7 @@ o que também vale para uma quantidade maior de qbits
 
 E essa também é uma operação reversível, dado um vetor `|10>` podemos fatora-los nos qbits `|1>` e `|0>`.
 
-### Operação CNot
+## Operação CNot
 
 Uma operação bem útil com bits é a negação condicional, também chamada de CNot. Ela recebe dois bits, um de controle e um é a entrada. Caso o bit de controle seja 1, a entrafa é negada, caso o bit de controle seja zero, a entrada continua igual.
 Assim como as outras operações, ela pode ser representada como uma matriz
@@ -115,6 +119,8 @@ Assim como as outras operações, ela pode ser representada como uma matriz
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;C|11>&space;=&space;C&space;\begin{pmatrix}&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;0\\&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;|10>" title="\tiny C|11> = C \begin{pmatrix} \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} \end{pmatrix} = \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix} \begin{pmatrix} 0\\ 0\\ 0\\ 1 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} = |10>" />
 
+Como podemos ver, essa operação além de ser reversível é a sua própria inversa.
+
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;C|01>&space;=&space;C&space;\begin{pmatrix}&space;\begin{pmatrix}&space;1&space;\\&space;0&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1\\&space;0\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1\\&space;0\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&space;\\&space;0&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;|01>" title="\tiny C|01> = C \begin{pmatrix} \begin{pmatrix} 1 \\ 0 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} \end{pmatrix} = \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix} \begin{pmatrix} 0\\ 1\\ 0\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 1\\ 0\\ 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} = |01>" />
 
-
+E assim como na computação tradicional a porta NAND é usada para construir operações mais complexas e interessantes, usaremos o CNOT para contruir operações mais interessantes na computação quântica.
