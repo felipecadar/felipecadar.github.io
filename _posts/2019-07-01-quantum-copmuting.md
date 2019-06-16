@@ -78,3 +78,9 @@ $ f(f(X)) = X $
 A operação de Negação é um bom exemplo para isso também
 
 $ \neg(\neg X) = X $
+
+Ok, sabendo de tudo isso vamos estudar outra operação, o [produto de tensores](https://en.wikipedia.org/wiki/Tensor_product). No resumo ela funciona seguindo a regra abaixo, pelo menos para os propósitos dessse blog.
+
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;X_0\\&space;X_1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;Y_0\\&space;Y_1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;X_0*Y_0\\&space;X_0*Y_1\\&space;X_1*Y_0\\&space;X_1*Y_1\\&space;\end{pmatrix}" title="\begin{pmatrix} X_0\\ X_1 \end{pmatrix} \otimes \begin{pmatrix} Y_0\\ Y_1 \end{pmatrix} = \begin{pmatrix} X_0*Y_0\\ X_0*Y_1\\ X_1*Y_0\\ X_1*Y_1\\ \end{pmatrix}" />
+
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;X_0\\&space;X_1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;Y_0\\&space;Y_1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;Z_0\\&space;Z_1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;X_0*Y_0*Z_0\\&space;X_0*Y_0*Z_1\\&space;X_0*Y_1*Z_0\\&space;X_0*Y_1*Z_1\\&space;X_1*Y_0*Z_0\\&space;X_1*Y_0*Z_1\\&space;X_1*Y_1*Z_0\\&space;X_1*Y_1*Z_1&space;\end{pmatrix}" title="\begin{pmatrix} X_0\\ X_1 \end{pmatrix} \otimes \begin{pmatrix} Y_0\\ Y_1 \end{pmatrix} \otimes \begin{pmatrix} Z_0\\ Z_1 \end{pmatrix} = \begin{pmatrix} X_0*Y_0*Z_0\\ X_0*Y_0*Z_1\\ X_0*Y_1*Z_0\\ X_0*Y_1*Z_1\\ X_1*Y_0*Z_0\\ X_1*Y_0*Z_1\\ X_1*Y_1*Z_0\\ X_1*Y_1*Z_1 \end{pmatrix}" />
