@@ -77,4 +77,4 @@ $ f(f(X)) = X $
 
 A operação de Negação é um bom exemplo para isso também
 
-$ \beg(\neg X) = X $
+$ \neg(\neg X) = X $
