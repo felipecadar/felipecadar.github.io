@@ -21,19 +21,15 @@ Em janeiro de 2019 a [IBM](https://www.ibm.com)  anunciou seu primeiro, e até e
 Em um computador tradicional trabalhamos com bits, a menor unidade de mémoria que pode representar um Zero(0) ou um Um(1). No computador quantico temos o Qbit
 
 $$
-<!-- \label{eq:qbit1} -->
 \left(\begin{array}{c} 
 1\\
 0
 \end{array}\right)
-$$
-$$
-<!-- \label{eq:qbit2} -->
-\left(\begin{array}{c} 
-0\\
-1
-\end{array}\right)
 $$ 
 
-<!-- Ref to Eq. $\eqref{eq:qbit1}$.
-Ref to Eq. $\eqref{eq:qbit2}$. -->
+$$
+\left(\begin{array}{c} 
+1\\
+0
+\end{array}\right)
+$$ 
