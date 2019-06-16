@@ -125,7 +125,7 @@ Como podemos ver, essa operação além de ser reversível é a sua própria inv
 
 E assim como na computação tradicional a porta NAND é usada para construir operações mais complexas e interessantes, usaremos o CNOT para contruir operações mais interessantes e complexas na computação quântica.
 
-## Recapitulando 
+### Recapitulando 
 
 - Aprendemos a representar bits na forma vetorial
 - Aprendemos a fazer operações nesses bits com multiplicações 
@@ -136,23 +136,13 @@ E assim como na computação tradicional a porta NAND é usada para construir op
 
 ## Qbits e Superposição
 
-Um qbit é representado por um vetor 
+Um qbit é representado por um vetor <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;a&space;\\&space;b&space;\end{pmatrix}"/> onde **a** e **b** são números complexos e $\left \| a \right \|^2 + \left \| b \right \|^2 = 1$
 
-<img src="https://latex.codecogs.com/pdf.latex?\inline&space;\dpi{300}&space;\tiny&space;\begin{pmatrix}&space;a&space;\\&space;b&space;\end{pmatrix}" title="\tiny \begin{pmatrix} a \\ b \end{pmatrix}"/>
-
-onde **a** e **b** são números complexos e
-
-$\left \| a \right \|^2 + \left \| b \right \|^2 = 1$
-
-os vetores 
-
-<img src="https://latex.codecogs.com/pdf.latex?\inline&space;\dpi{300}&space;\tiny&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}" title="\tiny \begin{pmatrix} a \\ b \end{pmatrix}" /> e <img src="https://latex.codecogs.com/pdf.latex?\inline&space;\dpi{300}&space;\tiny&space;\begin{pmatrix}&space;1&space;\\&space;0&space;\end{pmatrix}"  title="\tiny \begin{pmatrix} a \\ b \end{pmatrix}" /> 
-
-que vimos até agora se encaixam nessa definição.
+os vetores <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}" title="\tiny \begin{pmatrix} a \\ b \end{pmatrix}" /> e <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;\\&space;0&space;\end{pmatrix}"  title="\tiny \begin{pmatrix} a \\ b \end{pmatrix}" /> que vimos até agora se encaixam nessa definição.
 
 Mas não se preocupe com a parte complexa desses números, neste blog só vamos usar números reais :)
 
 Outros exemplos de Qbits são:
 
-<img src="https://latex.codecogs.com/pdf.latex?\inline&space;\dpi{300}&space;\tiny&space;\begin{pmatrix}&space;\frac{1}{\sqrt{2}}&space;\\&space;\frac{1}{\sqrt{2}}&space;\end{pmatrix}&space;\;&space;\;&space;\;&space;\;&space;\;&space;\;&space;\begin{pmatrix}&space;\frac{1}{2}&space;\\&space;\frac{\sqrt{3}}{2}&space;\end{pmatrix}&space;\;&space;\;&space;\;&space;\;&space;\;&space;\;&space;\begin{pmatrix}&space;-1&space;\\&space;0&space;\end{pmatrix}&space;\;&space;\;&space;\;&space;\;&space;\;&space;\;&space;\begin{pmatrix}&space;\frac{1}{\sqrt{2}}&space;\\&space;\frac{-1}{\sqrt{2}}&space;\end{pmatrix}" title="\tiny \begin{pmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{pmatrix} \; \; \; \; \; \; \begin{pmatrix} \frac{1}{2} \\ \frac{\sqrt{3}}{2} \end{pmatrix} \; \; \; \; \; \; \begin{pmatrix} -1 \\ 0 \end{pmatrix} \; \; \; \; \; \; \begin{pmatrix} \frac{1}{\sqrt{2}} \\ \frac{-1}{\sqrt{2}} \end{pmatrix}" />
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;\begin{pmatrix}&space;\frac{1}{\sqrt{2}}&space;\\&space;\frac{1}{\sqrt{2}}&space;\end{pmatrix}&space;\;&space;\;&space;\;&space;\;&space;\;&space;\;&space;\begin{pmatrix}&space;\frac{1}{2}&space;\\&space;\frac{\sqrt{3}}{2}&space;\end{pmatrix}&space;\;&space;\;&space;\;&space;\;&space;\;&space;\;&space;\begin{pmatrix}&space;-1&space;\\&space;0&space;\end{pmatrix}&space;\;&space;\;&space;\;&space;\;&space;\;&space;\;&space;\begin{pmatrix}&space;\frac{1}{\sqrt{2}}&space;\\&space;\frac{-1}{\sqrt{2}}&space;\end{pmatrix}" title="\tiny \begin{pmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{pmatrix} \; \; \; \; \; \; \begin{pmatrix} \frac{1}{2} \\ \frac{\sqrt{3}}{2} \end{pmatrix} \; \; \; \; \; \; \begin{pmatrix} -1 \\ 0 \end{pmatrix} \; \; \; \; \; \; \begin{pmatrix} \frac{1}{\sqrt{2}} \\ \frac{-1}{\sqrt{2}} \end{pmatrix}" />
 
