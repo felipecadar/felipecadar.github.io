@@ -163,3 +163,13 @@ Mas se ![](/images/blog_quantum/qbit0.png) significa 0 e ![](/images/blog_quantu
 Quando temos essa superposição, signica que ele é tanto 0 quanto 1, e nesse estado é como se a computação esteja sendo feita tanto para 0 quanto para 1. Mas isso não é um resultado útil neh ? Ao final de toda computação quantica precisamos passar nossos qbits por uma operação de medição, que colapsa esse qbit ou para 0 ou para 1.
 
 Um qbit ![](/images/blog_quantum/qbit.png) colapsa para 0 com probabilidade $\left \| a \right \|^2$ e colapsa para 1 com probabilidade $\left \| b \right \|^2$.
+
+Então quando falamos que o qbit ![](/images/blog_quantum/qbit1.png) significa 1, na verdade estavamos dizendo que ele tem probabilidade 0 de colapsar para o valor 0 tem probabilidade 1 de colapsar para o valor 1 quando for medido.
+
+Um qbit ![](/images/blog_quantum/qbit1.png) tem probabilidade 0.5 de colapsar para 0 e probabilidade 0.5 de colapsar para 1.
+
+Note também que podemos ter multiplos qbits em superposição usando o produto de tensores
+
+![](/images/blog_quantum/qbits2.png)
+
+como $\left \| \frac{1}{2} \right \|^2 = \frac{1}{4}$, e $\frac{1}{4}+\frac{1}{4}+\frac{1}{4}+\frac{1}{4} = 1$, esse qbit tem probabilidade 1/4 de colapsar para $\left\|00\right>$, $\left\|01\right>$, $\left\|10\right>$, $\left\|11\right>$.
