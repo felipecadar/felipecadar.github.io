@@ -52,6 +52,6 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="\begin{pmatrix} 0 & 0\\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 1 \end{pmatrix}" />
 
-![](../images/id0.png)
+![](images/id0.png)
 
-![](../images/id1.png)
+![](images/id1.png)
