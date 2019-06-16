@@ -22,11 +22,11 @@ Em um computador tradicional trabalhamos com bits, a menor unidade de mémoria q
 
 Podemos dizer que o Qbit Zero(0) é representado pelo vetor abaixo:
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="\begin{pmatrix} 0\\ 1 \end{pmatrix}" /> ou  $\|0>$
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="\begin{pmatrix} 0\\ 1 \end{pmatrix}" /> ou  em uma notação um pouco diferente $\|0>$
 
 E o Qbit Um(1) por esse outro vetor: 
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="\begin{pmatrix} 0\\ 1 \end{pmatrix}" /> ou  $\|1>$
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="\begin{pmatrix} 0\\ 1 \end{pmatrix}" /> ou  em uma notação um pouco diferente $\|1>$
 
 Agora as coisas começam a ficar mais parecidas com uma copmutação tradicional.
 
