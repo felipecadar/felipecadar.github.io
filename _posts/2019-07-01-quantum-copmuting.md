@@ -176,4 +176,7 @@ Note que $\left \| \frac{1}{2} \right \|^2 = \frac{1}{4}$, e $\frac{1}{4}+\frac{
 
 ## Hadamard Gate
 
-Agora que sabemos da existencia da superposição, como colocamos nossos bits nesse estado ? Para isso usamos outra operação quântica, chamado Portão de Hadamard (na tradução literal)
+Agora que sabemos da existência da superposição, como colocamos nossos bits nesse estado ? Para isso usamos outra operação quântica, o Hadamard Gate. Assim como as outras operações ele é representado por uma matriz, e sua função é colocar qbits  $\left\|0\right>$ e $\left\|1\right>$ na mesma superposição.
+
+![](/images/blog_quantum/hadamard.png)
+
