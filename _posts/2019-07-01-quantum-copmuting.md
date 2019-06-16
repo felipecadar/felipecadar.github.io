@@ -106,3 +106,9 @@ E essa também é uma operação reversível, dado um vetor `|10>` podemos fator
 
 ### Operação CNot
 
+Uma operação bem útil com bits é a negação condicional, também chamada de CNot. Ela recebe dois bits, um de controle e um é a entrada. Caso o bit de controle seja 1, a entrafa é negada, caso o bit de controle seja zero, a entrada continua igual.
+Assim como as outras operações, ela pode ser representada como uma matriz
+
+<img src="https://latex.codecogs.com/png.latex?\inline&space;C=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}" title="C= \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix}" />
+
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;C|10>&space;=&space;C&space;\begin{pmatrix}&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;0\\&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;|11>" title="\tiny C|10> = C \begin{pmatrix} \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} \end{pmatrix} = \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix} \begin{pmatrix} 0\\ 0\\ 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 0\\ 1 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} = |11>" />
