@@ -31,10 +31,10 @@ E o Qbit Um(1) por esse outro vetor:
 Agora as coisas começam a ficar mais parecidas com uma copmutação tradicional.
 
 Com cbits conseguimos fazer 4 operações clássicas:
-1. Identidade: f(x) = x
-2. Negação: f(x) = ~x
-3. Constatante 0: f(x) = 0;
-4. Constante 1: f(x) = 1.
+1. Identidade: $f(x) = x$
+2. Negação: $f(x) = \not x$
+3. Constatante 0: $f(x) = 0$
+4. Constante 1: $f(x) = 1$
 
 E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
@@ -63,9 +63,13 @@ O Qbit 0 se torna 0 e o Qbit 1 continua 1
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negaçao 1" />
 
 
-Vamos dar guardar essas 4 operações retornamos para elas mais tarde. Agora precisamos saber entender o conceito de Computação Reversível. No resumo, significa que se você sabe a operação que foi realizada e o resultado dessa operação, você consegue descobrir a entrada que foi utilizada. Um bom exemplo seria: se temos a operação de negação realizada e o resultado for 1, então a entrada tem que ser 0
+Vamos dar guardar essas 4 operações retornamos para elas mais tarde. Agora precisamos saber entender o conceito de Computação Reversível. 
+
+No resumo, significa que se você sabe a operação que foi realizada e o resultado dessa operação, você consegue descobrir a entrada que foi utilizada. Um bom exemplo seria: se temos a operação de negação realizada e o resultado for 1, então a entrada tem que ser 0
 
 $$ \neg X = 1 \Leftrightarrow X = 0 $$
+
+
 
 
 $$
