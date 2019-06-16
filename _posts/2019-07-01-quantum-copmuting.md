@@ -157,3 +157,9 @@ Mas não se preocupe com a parte complexa desses números, neste blog só vamos 
 Outros exemplos de Qbits são:
 
 ![](/images/blog_quantum/tiposqbits.png)
+
+Mas se ![](/images/blog_quantum/qbit0.png) significa 0 e ![](/images/blog_quantum/qbit1.png) significa 1, o que seria ![](/images/blog_quantum/qbits.png) ? Ele é um qbit em superposição
+
+Quando temos essa superposição, signica que ele é tanto 0 quanto 1, e nesse estado é como se a computação esteja sendo feita tanto para 0 quanto para 1. Mas isso não é um resultado útil neh ? Ao final de toda computação quantica precisamos passar nossos qbits por uma operação de medição, que colapsa esse qbit ou para 0 ou para 1.
+
+Um qbit ![](/images/blog_quantum/qbit.png) colapsa para 0 com probabilidade $\left \| a \right \|^2$ e colapsa para 1 com probabilidade $\left \| b \right \|^2$.
