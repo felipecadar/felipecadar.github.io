@@ -58,7 +58,7 @@ O Qbit 0 continua 0 e o Qbit 1 se torna 0
 
 4. Constatante 1:
 
-O Qbit 0 se torna  e o Qbit 1 continua 1
+O Qbit 0 se torna 0 e o Qbit 1 continua 1
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negaçao 1" />
 
