@@ -22,29 +22,19 @@ Em um computador tradicional trabalhamos com bits, a menor unidade de mémoria q
 
 Podemos dizer que o Qbit Zero(0) é representado pelo vetor abaixo:
 
-$$
-\left(\begin{array}{c} 
-1\\
-0
-\end{array}\right)
-$$ 
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="\begin{pmatrix} 0\\ 1 \end{pmatrix}" />
 
-E o Qbit Um(0) por esse outro vetor: 
+E o Qbit Um(1) por esse outro vetor: 
 
-$$
-\left(\begin{array}{c} 
-0\\
-1
-\end{array}\right)
-$$ 
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="\begin{pmatrix} 0\\ 1 \end{pmatrix}" />
 
 Agora as coisas começam a ficar mais parecidas com uma copmutação tradicional.
 
 Com cbits conseguimos fazer 4 operações clássicas:
 1. Identidade : 1 -> 1, 0 -> 0;
 2. Negação : 1 -> 0, 0 -> 1;
-3. Contatante 0 : 1 -> 0, 0 -> 0;
-4. Contante 1 : 1 -> 1, 0 -> 1.
+3. Constatante 0 : 1 -> 0, 0 -> 0;
+4. Constante 1 : 1 -> 1, 0 -> 1.
 
 E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
@@ -56,3 +46,10 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;1\\&space;1&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;1\\&space;1&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negaçao 1" />
 
+3. Constatante 0:
+
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;1&space;&&space;1\\&space;0&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;1&space;&&space;1\\&space;0&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negaçao 1" />
+
+3. Constatante 1:
+
+<img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negaçao 1" />
