@@ -134,3 +134,6 @@ E assim como na computação tradicional a porta NAND é usada para construir op
 - E por fim aprendemos o CNOT
 
 
+## Qbits e Superposição
+
+Um qbit é representado por um vetor <img src="https://latex.codecogs.com/pdf.latex?\inline&space;\dpi{300}&space;\tiny&space;\begin{pmatrix}&space;a&space;\\&space;b&space;\end{pmatrix}" title="\tiny \begin{pmatrix} a \\ b \end{pmatrix}" /> onde **a** e **b** são números complexos e $||a||^2 + ||b||^2 = 1$
