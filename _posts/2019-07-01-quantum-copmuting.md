@@ -41,10 +41,10 @@ $$
 Agora as coisas começam a ficar mais parecidas com uma copmutação tradicional.
 
 Com cbits conseguimos fazer 4 operações clássicas:
-> 1. Identidade : 1->1, 0->0;
-> 2. Negação : 1->0, 0->1;
-> 3. Contatante 0 : 1->0, 0->0;
-> 4. Contante 1 : 1->1, 0->1.
+1. Identidade : 1->1, 0->0;
+2. Negação : 1->0, 0->1;
+3. Contatante 0 : 1->0, 0->0;
+4. Contante 1 : 1->1, 0->1.
 
 E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
@@ -58,5 +58,12 @@ $$
 \left(\begin{array}{c}
 1 \\
 0
+\end{array}\right)
+$$ 
+
+$$
+\left(\begin{array}{c} 
+0\\
+1
 \end{array}\right)
 $$ 
