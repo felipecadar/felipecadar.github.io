@@ -50,44 +50,40 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
 1. Identidade:
 
-$$\mathbf{X} = \left[\begin{array}
-{rrr}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{array}\right]
 $$
-
-$$
-\left(\begin{array}{} 
-1 & 0\\
-0 & 1
+\left(\begin{array}
+{rr}
+1  0 \\
+0  1
 \end{array}\right)
-
-\left(\begin{array}{c} 
-1\\
-0
+\left(\begin{array}
+{r}
+1 \\
+0 
 \end{array}\right)
 =
-\left(\begin{array}{c} 
-1\\
-0
+\left(\begin{array}
+{r}
+1 \\
+0 
 \end{array}\right)
-$$ 
+$$
 
 $$
-\left(\begin{array}{} 
-1 & 0\\
+\left(\begin{array}
+{rr}
+1 & 0 \\
 0 & 1
 \end{array}\right)
-
-\left(\begin{array}{c} 
-1\\
-0
+\left(\begin{array}
+{r}
+1 \\
+0 
 \end{array}\right)
 =
-\left(\begin{array}{c} 
-1\\
-0
+\left(\begin{array}
+{r}
+1 \\
+0 
 \end{array}\right)
-$$ 
+$$
