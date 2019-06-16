@@ -182,6 +182,8 @@ Agora que sabemos da existência da superposição, como colocamos nossos bits n
 
 ![](/images/blog_quantum/hadamard.png)
 
+É interessante notar que o $\frac{-1}{\sqrt{2}}$ aparentemente é desnecessário, mas ele serve para deixar a operação reversível, caso contrário tanto a operação com $\left\|0\right>$ quanto com $\left\|1\right>$ teriam o mesmo resultado.
+
 ![](/images/blog_quantum/hadamard0.png)
 
 ![](/images/blog_quantum/hadamard1.png)
