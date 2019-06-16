@@ -44,6 +44,10 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
 O Qbit 0 continua 0 e o Qbit 1 continua 1
 
+![](/images/blog_quantum/id0.png)
+ou
+![](/images/blog_quantum/id1.png)
+
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;0\\&space;0&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Identidade 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;0\\&space;0&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Identidade 1" />
 
 **Negação**:
