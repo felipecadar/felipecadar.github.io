@@ -51,14 +51,20 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 > 1. Identidade:
 
 $$
-\left(\begin{array}{cc} 
+\left(
+\begin{array}{cc} 
 1 & 0 \\
 0 & -1
-\end{array}\right)
-\left(\begin{array}{c} 
-1\\ 
+\end{array}
+\right)
+
+\left( 
+\begin{array}{c} 
+1 \\ 
 0
-\end{array}\right)
+\end{array}
+\right)
+
 $$ 
 
-$\left(\begin{array}{cc} 1 & 0 \\ 0 & -1\end{array}\right)\left(\begin{array}{c} 1\\ 0\end{array}\right)$ 
+$\left(\begin{array}{cc} 1 & 0 \\ 0 & 1\end{array}\right)\left(\begin{array}{c} 1\\ 0\end{array}\right)$ 
