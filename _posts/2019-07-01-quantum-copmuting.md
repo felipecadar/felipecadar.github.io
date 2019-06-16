@@ -172,4 +172,8 @@ Note também que podemos ter multiplos qbits em superposição usando o produto 
 
 ![](/images/blog_quantum/qbits2.png)
 
-como $\left \| \frac{1}{2} \right \|^2 = \frac{1}{4}$, e $\frac{1}{4}+\frac{1}{4}+\frac{1}{4}+\frac{1}{4} = 1$, esse qbit tem probabilidade 1/4 de colapsar para $\left\|00\right>$, $\left\|01\right>$, $\left\|10\right>$, $\left\|11\right>$.
+Note que $\left \| \frac{1}{2} \right \|^2 = \frac{1}{4}$, e $\frac{1}{4}+\frac{1}{4}+\frac{1}{4}+\frac{1}{4} = 1$, então esse qbit tem probabilidade 1/4 de colapsar para $\left\|00\right>$, $\left\|01\right>$, $\left\|10\right>$, $\left\|11\right>$.
+
+## Hadamard Gate
+
+Agora que sabemos da existencia da superposição, como colocamos nossos bits nesse estado ? Para isso usamos outra operação quântica, chamado Portão de Hadamard (na tradução literal)
