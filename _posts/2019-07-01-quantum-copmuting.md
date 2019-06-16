@@ -8,6 +8,8 @@ tags:
   - Computação
 ---
 
+# EM PRODUÇÃO
+
 Escrevi esse post para pessoas que possuem alguma noção de computação e querem saber o que acontece dentro de um computador quântico, porém assim como eu se deparou com muita física e mesmo depois de lerem muito e assistirem vários vídeos ainda não acharam o que estavam procurando. Como funciona um computador quântico na perspectiva computacional, e não física.
 
 # Computação Quântica
