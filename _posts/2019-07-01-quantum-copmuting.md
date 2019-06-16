@@ -52,7 +52,7 @@ E podemos escrever essas operações como matrizes para aplica-las aos qbits:
 
 $$
 \left(\begin{array}{cc} 
-1 & 0\\
+1 & 0 \\
 0 & -1
 \end{array}\right)
 \left(\begin{array}{c} 
@@ -61,4 +61,4 @@ $$
 \end{array}\right)
 $$ 
 
-$\left(\begin{array}{cc} 1 & 0\\0 & -1\end{array}\right)\left(\begin{array}{c} 1\\ 0\end{array}\right)$ 
+$\left(\begin{array}{cc} 1 & 0 \\ 0 & -1\end{array}\right)\left(\begin{array}{c} 1\\ 0\end{array}\right)$ 
