@@ -48,25 +48,28 @@ O Qbit 0 continua 0 e o Qbit 1 continua 1
 ou
 ![](/images/blog_quantum/id1.png)
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;0\\&space;0&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Identidade 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;0\\&space;0&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Identidade 1" />
 
 **Negação**:
 
 O Qbit 0 se torna 1 e o Qbit 1 se torna 0
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;1\\&space;1&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;1\\&space;1&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negaçao 1" />
+![](/images/blog_quantum/not0.png)
+ou ![](/images/blog_quantum/not1.png)
 
 **Constatante 0**:
 
 O Qbit 0 continua 0 e o Qbit 1 se torna 0
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;1\\&space;0&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;1&space;&&space;1\\&space;0&space;&&space;0&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}" title="Negaçao 1" />
+![](/images/blog_quantum/const00.png)
+ou ![](/images/blog_quantum/const01.png)
+
 
 **Constatante 1**:
 
 O Qbit 0 se torna 1 e o Qbit 1 continua 1
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negaçao 1" />
+![](/images/blog_quantum/const10.png)
+ou ![](/images/blog_quantum/const11.png)
 
 
 Vamos dar guardar essas 4 operações retornamos para elas mais tarde. 
@@ -93,9 +96,11 @@ $ \neg(\neg X) = X $
 
 Ok, sabendo de tudo isso vamos estudar outra operação, o [produto de tensores](https://en.wikipedia.org/wiki/Tensor_product). No resumo ela funciona seguindo a regra abaixo, pelo menos para os propósitos dessse blog.
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;X_0\\&space;X_1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;Y_0\\&space;Y_1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;X_0*Y_0\\&space;X_0*Y_1\\&space;X_1*Y_0\\&space;X_1*Y_1\\&space;\end{pmatrix}" title="\begin{pmatrix} X_0\\ X_1 \end{pmatrix} \otimes \begin{pmatrix} Y_0\\ Y_1 \end{pmatrix} = \begin{pmatrix} X_0*Y_0\\ X_0*Y_1\\ X_1*Y_0\\ X_1*Y_1\\ \end{pmatrix}" />
+![](/images/blog_quantum/tensor2.png)
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;X_0\\&space;X_1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;Y_0\\&space;Y_1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;Z_0\\&space;Z_1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;X_0*Y_0*Z_0\\&space;X_0*Y_0*Z_1\\&space;X_0*Y_1*Z_0\\&space;X_0*Y_1*Z_1\\&space;X_1*Y_0*Z_0\\&space;X_1*Y_0*Z_1\\&space;X_1*Y_1*Z_0\\&space;X_1*Y_1*Z_1&space;\end{pmatrix}" title="\begin{pmatrix} X_0\\ X_1 \end{pmatrix} \otimes \begin{pmatrix} Y_0\\ Y_1 \end{pmatrix} \otimes \begin{pmatrix} Z_0\\ Z_1 \end{pmatrix} = \begin{pmatrix} X_0*Y_0*Z_0\\ X_0*Y_0*Z_1\\ X_0*Y_1*Z_0\\ X_0*Y_1*Z_1\\ X_1*Y_0*Z_0\\ X_1*Y_0*Z_1\\ X_1*Y_1*Z_0\\ X_1*Y_1*Z_1 \end{pmatrix}" />
+
+![](/images/blog_quantum/tensor3.png)
+
 
 E pra que precisamos saber disso ? Bom, na computação tradicional conseguimos representar um valor com dois ou mais cbits (`00`, `011`, `1110`), mas na computação quântica representar um valor com dois qbits é um pouco diferente. O valor de dois qbits `|10>` é o produto de tensores entre os qbits `|1>` e `|0>`
 
@@ -104,11 +109,13 @@ $ \|10> = \|0>\otimes\|1> $
 
 ou, na forma matricial
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;1\\&space;0&space;\end{pmatrix}" title="\begin{pmatrix} 0\\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 1\\ 0 \end{pmatrix}" />
+![](/images/blog_quantum/tensor10.png)
+
 
 o que também vale para uma quantidade maior de qbits
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;|4>&space;=&space;|100>&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;0\\&space;0\\&space;1\\&space;0\\&space;0\\&space;0&space;\end{pmatrix}" title="|4> = |100> = \begin{pmatrix} 0\\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 0\\ 0\\ 1\\ 0\\ 0\\ 0 \end{pmatrix}" />
+![](/images/blog_quantum/tensor100.png)
+
 
 E essa também é uma operação reversível, dado um vetor `|10>` podemos fatora-los nos qbits `|1>` e `|0>`.
 
@@ -117,15 +124,16 @@ E essa também é uma operação reversível, dado um vetor `|10>` podemos fator
 Uma operação bem útil com bits é a negação condicional, também chamada de CNot. Ela recebe dois bits, um de controle e um é a entrada. Caso o bit de controle seja 1, a entrafa é negada, caso o bit de controle seja zero, a entrada continua igual.
 Assim como as outras operações, ela pode ser representada como uma matriz
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;C=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}" title="C= \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix}" />
+![](/images/blog_quantum/cnot.png)
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;C|01>&space;=&space;C&space;\begin{pmatrix}&space;\begin{pmatrix}&space;1&space;\\&space;0&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1\\&space;0\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1\\&space;0\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&space;\\&space;0&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;|01>" title="\tiny C|01> = C \begin{pmatrix} \begin{pmatrix} 1 \\ 0 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} \end{pmatrix} = \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix} \begin{pmatrix} 0\\ 1\\ 0\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 1\\ 0\\ 0 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} = |01>" />
+![](/images/blog_quantum/cnot01.png)
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;C|10>&space;=&space;C&space;\begin{pmatrix}&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;0\\&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;|11>" title="\tiny C|10> = C \begin{pmatrix} \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} \end{pmatrix} = \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix} \begin{pmatrix} 0\\ 0\\ 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 0\\ 1 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} = |11>" />
+![](/images/blog_quantum/cnot11.png)
+
 
 Como podemos ver, essa operação além de ser reversível é a sua própria inversa.
 
-<img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;C|11>&space;=&space;C&space;\begin{pmatrix}&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;0\\&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;|10>" title="\tiny C|11> = C \begin{pmatrix} \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} \end{pmatrix} = \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix} \begin{pmatrix} 0\\ 0\\ 0\\ 1 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} = |10>" />
+![](/images/blog_quantum/cnot10.png)
 
 E assim como na computação tradicional a porta NAND é usada para construir operações mais complexas e interessantes, usaremos o CNOT para contruir operações mais interessantes e complexas na computação quântica.
 
