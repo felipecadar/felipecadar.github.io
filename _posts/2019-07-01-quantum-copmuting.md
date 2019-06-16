@@ -18,9 +18,9 @@ Em janeiro de 2019 a [IBM](https://www.ibm.com)  anunciou seu primeiro, e até e
 
 ### Qbits 
 
-Em um computador tradicional trabalhamos com bits, a menor unidade de mémoria que pode representar um Zero(0) ou um Um(1). No computador quantico temos o Qbit, que também pode representar um Zero(0) ou um Um(1).
+Em um computador tradicional trabalhamos com bits, a menor unidade de mémoria que pode representar um Zero(0) ou um Um(1). No computador quantico temos o bit quântico, que também pode representar um Zero(0) ou um Um(1). Vamos chamar o bit clássico de cbit e o bit quântico de qbit.
 
-Vamos dizer que o vetor abaixo é um Qbit Zero(0)
+Podemos dizer que o Qbit Zero(0) é representado pelo vetor abaixo:
 
 $$
 \left(\begin{array}{c} 
@@ -29,7 +29,7 @@ $$
 \end{array}\right)
 $$ 
 
-E que esse outro vetor é o Qbit Um(0)
+E o Qbit Um(0) por esse outro vetor: 
 
 $$
 \left(\begin{array}{c} 
@@ -38,8 +38,48 @@ $$
 \end{array}\right)
 $$ 
 
-Agora as coisas começam a ficar mais parecidas com uma copmutação tradicional. Com bits comuns conseguimos fazer 4 operações clássicas:
+Agora as coisas começam a ficar mais parecidas com uma copmutação tradicional.
+
+Com cbits conseguimos fazer 4 operações clássicas:
 > 1. Identidade : 1->1, 0->0;
 > 2. Negação : 1->0, 0->1;
 > 3. Contatante 0 : 1->0, 0->0;
 > 4. Contante 1 : 1->1, 0->1.
+
+E podemos escrever essas operações como matrizes para aplica-las aos qbits:
+
+> 1. Identidade:
+
+$$
+\left(\begin{array}{cc} 
+1 & 0\\
+0 & 1
+\end{array}\right)
+*
+\left(\begin{array}{c} 
+1\\
+0
+\end{array}\right)
+=
+\left(\begin{array}{c} 
+1\\
+0
+\end{array}\right)
+
+$$
+\left(\begin{array}{cc} 
+1 & 0\\
+0 & 1
+\end{array}\right)
+*
+\left(\begin{array}{c} 
+0\\
+1
+\end{array}\right)
+=
+\left(\begin{array}{c} 
+0\\
+1
+\end{array}\right)
+
+$$ 
