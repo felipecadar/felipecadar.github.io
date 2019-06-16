@@ -88,7 +88,7 @@ Ok, sabendo de tudo isso vamos estudar outra operação, o [produto de tensores]
 E pra que precisamos saber disso ? Bom, na computação tradicional conseguimos representar um valor com dois ou mais cbits (`00`, `011`, `1110`), mas na computação quântica representar um valor com dois qbits é um pouco diferente. O valor de dois qbits `|10>` é o produto de tensores entre os qbits `|1>` e `|0>`
 
 
-$ |10> = |0>\otimes|1> $
+$ \|10> = \|0>\otimes\|1> $
 
 ou, na forma matricial
 
