@@ -12,7 +12,7 @@ Escrevi esse post para pessoas que possuem alguma noção de computação e quer
 
 # Computação Quântica
 
-Em janeiro de 2019 a [IBM](https://www.ibm.com)  anunciou seu primeiro, e até então único, computador quântico "comercial". Bom, então agora que ele exite, toda nossa criptografia foi ameaçada e vamos resolver problemas que só sonhávamos em resolver... mas não é bem assim. O IBM Q System One, com seus 20 qbits(ainda vamos chegar lá), está mais para um símbolo. Ele não consegue superar um computador tradicional em problemas úteis, e mesmo que você queira um programa não útil rodadando em um computador quântico só para ver como é, isso pode se tornar uma tarefa bem difícil. E não digo pelo acesso à um computador quantico, a IBM disponibiliza um para qualquer pessoa usar no [IBM Q Experience](https://www.research.ibm.com/ibm-q/), o problema é entender o modelo de computação dele o suficiente para contruir um algoritmo e significar os resultados do seu programa.
+Em janeiro de 2019 a [IBM](https://www.ibm.com)  anunciou seu primeiro, e até então único, computador quântico "comercial". Bom, então agora que ele existe, toda nossa criptografia foi ameaçada e vamos resolver problemas que só sonhávamos em resolver... mas não é bem assim. O IBM Q System One, com seus 20 qbits(ainda vamos chegar lá), está mais para um símbolo. Ele não consegue superar um computador tradicional em problemas úteis, e mesmo que você queira um programa não útil rodadando em um computador quântico só para ver como é, isso pode se tornar uma tarefa bem difícil. E não digo pelo acesso à um computador quantico, a IBM disponibiliza um para qualquer pessoa usar no [IBM Q Experience](https://www.research.ibm.com/ibm-q/), o problema é entender o modelo de computação dele o suficiente para contruir um algoritmo e significar os resultados do seu programa.
 
 Para isso vamos passar por alguns conceitos nesse post.
 
@@ -60,7 +60,7 @@ O Qbit 0 continua 0 e o Qbit 1 se torna 0
 
 4. Constatante 1:
 
-O Qbit 0 se torna 0 e o Qbit 1 continua 1
+O Qbit 0 se torna 1 e o Qbit 1 continua 1
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negação 0" /> ou <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{200}&space;\tiny&space;\begin{pmatrix}&space;0&space;&&space;0\\&space;1&space;&&space;1&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}" title="Negaçao 1" />
 
