@@ -119,11 +119,18 @@ Assim como as outras operações, ela pode ser representada como uma matriz
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;C|10>&space;=&space;C&space;\begin{pmatrix}&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;0\\&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;=&space;|11>" title="\tiny C|10> = C \begin{pmatrix} \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} \end{pmatrix} = \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix} \begin{pmatrix} 0\\ 0\\ 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 0\\ 1 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} = |11>" />
 
-
 Como podemos ver, essa operação além de ser reversível é a sua própria inversa.
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{300}&space;\tiny&space;C|11>&space;=&space;C&space;\begin{pmatrix}&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;1&0&0&0\\&space;0&1&0&0\\&space;0&0&0&1\\&space;0&0&1&0\\&space;\end{pmatrix}&space;\begin{pmatrix}&space;0\\&space;0\\&space;0\\&space;1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0&space;\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;|10>" title="\tiny C|11> = C \begin{pmatrix} \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 0\\ 1 \end{pmatrix} \end{pmatrix} = \begin{pmatrix} 1&0&0&0\\ 0&1&0&0\\ 0&0&0&1\\ 0&0&1&0\\ \end{pmatrix} \begin{pmatrix} 0\\ 0\\ 0\\ 1 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} = |10>" />
 
+E assim como na computação tradicional a porta NAND é usada para construir operações mais complexas e interessantes, usaremos o CNOT para contruir operações mais interessantes e complexas na computação quântica.
+
+## Recapitulando 
+
+- Aprendemos a representar bits na forma vetorial
+- Aprendemos a fazer operações nesses bits com multiplicações 
+- Sabemos que a computação quântica só usa operações reversíveis, e essas operações - são seus próprios inversos
+- Aprendemos que estados com mais de um bit são o produto de tensores entres os bits individuais.
+- E por fim aprendemos o CNOT
 
 
-E assim como na computação tradicional a porta NAND é usada para construir operações mais complexas e interessantes, usaremos o CNOT para contruir operações mais interessantes na computação quântica.
