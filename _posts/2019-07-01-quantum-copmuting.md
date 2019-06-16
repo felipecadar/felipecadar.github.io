@@ -30,6 +30,8 @@ E o Qbit Um(1) por esse outro vetor:
 
 Agora as coisas começam a ficar mais parecidas com uma copmutação tradicional.
 
+### Operações com bits
+
 Com cbits conseguimos fazer 4 operações clássicas:
 1. Identidade: $f(x) = x$
 2. Negação: $f(x) = \neg x$
@@ -79,6 +81,8 @@ A operação de Negação é um bom exemplo para isso também
 
 $ \neg(\neg X) = X $
 
+### Produto de tensores 
+
 Ok, sabendo de tudo isso vamos estudar outra operação, o [produto de tensores](https://en.wikipedia.org/wiki/Tensor_product). No resumo ela funciona seguindo a regra abaixo, pelo menos para os propósitos dessse blog.
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;\begin{pmatrix}&space;X_0\\&space;X_1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;Y_0\\&space;Y_1&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;X_0*Y_0\\&space;X_0*Y_1\\&space;X_1*Y_0\\&space;X_1*Y_1\\&space;\end{pmatrix}" title="\begin{pmatrix} X_0\\ X_1 \end{pmatrix} \otimes \begin{pmatrix} Y_0\\ Y_1 \end{pmatrix} = \begin{pmatrix} X_0*Y_0\\ X_0*Y_1\\ X_1*Y_0\\ X_1*Y_1\\ \end{pmatrix}" />
@@ -97,3 +101,8 @@ ou, na forma matricial
 o que também vale para uma quantidade maior de qbits
 
 <img src="https://latex.codecogs.com/png.latex?\inline&space;|4>&space;=&space;|100>&space;=&space;\begin{pmatrix}&space;0\\&space;1&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;\otimes&space;\begin{pmatrix}&space;1\\&space;0&space;\end{pmatrix}&space;=&space;\begin{pmatrix}&space;0\\&space;0\\&space;0\\&space;0\\&space;1\\&space;0\\&space;0\\&space;0&space;\end{pmatrix}" title="|4> = |100> = \begin{pmatrix} 0\\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} \otimes \begin{pmatrix} 1\\ 0 \end{pmatrix} = \begin{pmatrix} 0\\ 0\\ 0\\ 0\\ 1\\ 0\\ 0\\ 0 \end{pmatrix}" />
+
+E essa também é uma operação reversível, dado um vetor `|10>` podemos fatora-los nos qbits `|1>` e `|0>`.
+
+### Operação CNot
+
