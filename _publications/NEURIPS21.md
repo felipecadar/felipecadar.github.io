@@ -1,5 +1,5 @@
 ---
-title: "ExtractingDeformation-AwareLocal Features by Learning to Deform"
+title: "Extracting Deformation-AwareLocal Features by Learning to Deform"
 collection: publications
 permalink: /publication/neurips2021
 excerpt: 'In this paper, we present a new approach to compute features from still images that are robust to non-rigid deformations to circumvent the problem of matching deformable surfaces and objects'

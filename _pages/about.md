@@ -13,6 +13,8 @@ I am a graduation student in Computer Science at Federal University of Minas Ger
 News
 ======
 
-- [Lars 2018] Paulo Rezeck, Bruna Frade, Jéssica F. Soares, Luan G. Pinto, Felipe Cadar, Hector Azpurua, Douglas Macharet, Luiz Chaimowicz, Mário Campos, Gustavo Freitas. __Framework for Haptic Teleoperation of a Remote Robotic Arm Device__, IEEE LARS 2018 – 15th Latin American Robotics Symposium, 2018. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/lars2018-1).
+-[Neurips 2021] Guilherme Potje and Renato Martins and Felipe Cadar and Erickson R. Nascimento. __ExtractingDeformation-AwareLocal Features by Learning to Deform__, NeurIPS 2021, 2021 Conference on Neural Information Processing Systems. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/neurips2021)
 
-- [Lars 2018] Paulo Rezeck, Felipe Cadar, Jéssica F. Soares, Bruna Frade, Luan G. Pinto, Hector Azpurua, Douglas Macharet, Luiz Chaimowicz, Mário Campos, Gustavo Freitas. __An Immersion Enhancing Robotic Head-Like Device for Teleoperation__, IEEE LARS 2018 – 15th Latin American Robotics Symposium, 2018. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/lars2018-2).
+<!-- - [Lars 2018] Paulo Rezeck, Bruna Frade, Jéssica F. Soares, Luan G. Pinto, Felipe Cadar, Hector Azpurua, Douglas Macharet, Luiz Chaimowicz, Mário Campos, Gustavo Freitas. __Framework for Haptic Teleoperation of a Remote Robotic Arm Device__, IEEE LARS 2018 – 15th Latin American Robotics Symposium, 2018. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/lars2018-1).
+
+- [Lars 2018] Paulo Rezeck, Felipe Cadar, Jéssica F. Soares, Bruna Frade, Luan G. Pinto, Hector Azpurua, Douglas Macharet, Luiz Chaimowicz, Mário Campos, Gustavo Freitas. __An Immersion Enhancing Robotic Head-Like Device for Teleoperation__, IEEE LARS 2018 – 15th Latin American Robotics Symposium, 2018. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/lars2018-2). -->
