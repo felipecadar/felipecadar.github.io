@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduation student in Computer Science at Federal University of Minas Gerais (UFMG - Brazil). In 2016 I joined the [VeRLab Computer Vision and Robotics](https://www.verlab.dcc.ufmg.br/) team in the [Semantic Hyperlapse project](https://www.verlab.dcc.ufmg.br/semantic-hyperlapse/). Today work in the [Advanced Teleoperation](https://www.verlab.dcc.ufmg.br/advanced-teleoperation-of-mining-equipment-bulldozer/) project focused in investigate the problem of the remote operation of mining equipment and propose a system aiming to increase safety and productivity. 
+I am a computer science Ph.D. student at the Federal University of Minas Gerais (UFMG). I have been doing scientific research at the Laboratory [VeRLab Computer Vision and Robotics](https://www.verlab.dcc.ufmg.br/) since I joined the CS Graduation in the first semester of 2016. I really enjoy doing research and would love to see my work positively impact someone's life.
 
 News
 ======
