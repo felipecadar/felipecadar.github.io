@@ -3,7 +3,7 @@ title: "Learning Geodesic-Aware Local Features from RGB-D Images"
 collection: publications
 permalink: /publication/sibgrapi2023
 excerpt: 'In this work, we address the problem of creating smooth fast-forward videos without losing the relevant content'
-date: 2023-01-01
+date: 2022-01-01
 venue: 'SIBGRAPI 2022'
 paperurl: 'https://sol.sbc.org.br/index.php/sibgrapi/article/view/22896'
 
