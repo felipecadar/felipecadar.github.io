@@ -17,4 +17,4 @@ News
 
 - [CVPR 2023] Guilherme Potje and Felipe Cadar and Renato Martins and André Araujo and Erickson R. Nascimento. __Enhancing Deformable Local Features by Jointly Learning to Detect and Describe Keypoints__. [Visit the page for the code and paper access](https://eucadar.com/publication/cvpr2023)
 
--[Neurips 2021] Guilherme Potje and Renato Martins and Felipe Cadar and Erickson R. Nascimento. __ExtractingDeformation-AwareLocal Features by Learning to Deform__. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/neurips2021)
+- [Neurips 2021] Guilherme Potje and Renato Martins and Felipe Cadar and Erickson R. Nascimento. __ExtractingDeformation-AwareLocal Features by Learning to Deform__. [Visit the page for the code and paper access](https://felipecadar.github.io/publication/neurips2021)
